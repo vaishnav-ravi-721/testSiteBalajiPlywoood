@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="sppu_logo.jpg" type="image/icon type">
+    <link rel="stylesheet" href="newcustomer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>ViewResult</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <link rel="stylesheet" href="responsiveCustomer.css">
+</head>
+<body >
+    <div id="homePage">
+        <nav id="nav-bar">
+            <div class="elem-1">
+                <div style="background-color: #131313;z-index: 1;display: flex;justify-content: center;align-items: center;" >
+                    <img style="width: 45px; height:45px; border-radius: 10px;z-index: 1;" src="salasarbalaji.jpg" alt="sppu logo">
+                </div>
+                <p id="nav-heading">Shree Balaji Ply And Hardware</p>
+            </div>
+            <div class="elem-2">
+                <p class="child-elem" id="dashboard" style="margin: 0;" onclick="displayHome()"><a href="#homePage" style="text-decoration: none;color:white;"><img src="home-logo.png" alt="Dashboard" style="width: 2em;vertical-align: middle;margin-right: 10px;">Home</a></p>
+                <p class="child-elem" style="color: #c2c7d0;margin-top: 10px;margin: 0;margin-left: 10px;"><a href="products/index.html" style="text-decoration: none;color:#c2c7d0;"><img src="carticon.png" alt="home" style="width: 1.5em;vertical-align: bottom; margin-right: 10px;">Products</a></p>
+                <p class="child-elem" style="color: #c2c7d0;margin-top: 10px;margin: 0;margin-left: 10px;"><a href="#aboutUs" style="text-decoration: none;color:#c2c7d0;"><img src="abouticon.png" alt="home" style="width: 1.5em;vertical-align: bottom; margin-right: 10px;">About Us</a></p>
+            </div>
+        </nav>
+        <div id="top-heading" >
+            <div id="side-bar" onclick="sidemenu()">
+                <div class="sidemenu"></div>
+                <div class="sidemenu"></div>
+                <div class="sidemenu"></div>
+            </div>
+            <div class="top-txt" onclick="sidemenu2()"><img id="homeShopLogo" src="balajilogo.png"  alt=""></div>
+        </div>
+        <!--Slide Show Container-->
+        <div id="slideShowContainer" onclick="sidemenu2()">
+          
+<figure class="cube-parent-container">
+  
+  <!-- Swiper -->
+    <div class="swiper cubeSwiper">
+      <div class="swiper-wrapper">
+        
+        
+        <div class="swiper-slide">
+          <img src="heatex.jpeg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="sr998.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="ezeespray.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="probond1ltr.jpg" />
+        </div>
+        <div class="swiper-slide">
+          <img src="masterlok.png" />
+        </div>
+  
+        <div class="swiper-slide">
+          <img src="salasarbalaji.jpg" />
+        </div>
+  
+      </div>   <!-- // end swiper wrapper  -->
+  
+      <!-- Pagination as three column grid  -->
+  
+      <div class="pagination-container">
+         <!-- Using non breaking space - &nbsp; - to layout text/entity icon in button   -->
+        <button class="cube-button-prev">← &nbsp;prev</button>
+        <div class="cube-pagination-fraction"></div>
+        <button class="cube-button-next">next&nbsp; →</button>
+      </div>
+    </div> <!-- // end pagination container  -->
+    
+    
+    </div> <!-- // end swiper  -->
+     <!--Say Welcome To Customers-->
+     <div id="welcomeContainer" onclick="sidemenu2()">
+      <section>
+        <div class="cover"></div>
+        <div class="content">
+            <div class="text">
+                <h2>Hi !</h2>
+            </div>
+            <div class="main_content">
+                <h1 id="welcomeTo">Welcome To</h1>
+                <p id="shopName">Shree Balaji Ply And Hardware</p>
+            </div>
+        </div>
+    </section>
+      </div>
+  </figure>
+  </div>
+  </div>
+
+     
+
+    <!--Products Container-->
+    <div id="productsContainer" onclick="sidemenu2()">
+       
+          <h2 style="text-align: center;" id="productHeading">Products</h2>
+        <br>
+        <ul class="image-list-small">
+            <li>
+              <a href="#" style="background-image: url('heatex.jpeg');"></a>
+              <div class="details">
+                <h3><a href="#">Heatex</a></h3>
+              </div>
+            </li>
+            <li>
+              <a href="#" style="background-image: url('fevicolmarine.webp');"></a>
+              <div class="details">
+                <h3><a href="#">Fevicol Marine</a></h3>
+              </div>
+            </li>
+            <li>
+              <a href="#" style="background-image: url('falcofixultramarine.png');"></a>
+              <div class="details">
+                <h3><a href="#">Falcofix Ultramarine</a></h3>
+              </div>
+            </li>
+            <li>
+              <a href="#" style="background-image: url('popscrew.jpg');"></a>
+              <div class="details">
+                <h3><a href="#">Pop Screw</a></h3>
+              </div>
+            </li>
+            <li>
+              <a href="#" style="background-image: url('nickelscrew.jpg');"></a>
+              <div class="details">
+                <h3><a href="#">Nickel Screw</a></h3>
+              </div>
+            </li>
+            <li>
+              <a href="#" style="background-image: url('selfthread.png');"></a>
+              <div class="details">
+                <h3><a href="#">Self Drilling Screw</a></h3>
+              </div>
+            </li>
+            <li>
+                <a href="#" style="background-image: url('probond1ltr.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Fevicol ProBond</a></h3>
+                </div>
+              </li>
+              <li>
+                <a href="#" style="background-image: url('bergertape.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Masking Tape</a></h3>
+                </div>
+              </li>
+              <li>
+                <a href="#" style="background-image: url('telescopicchannel.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Telescopic Channel</a></h3>
+                </div>
+              </li>
+              <li>
+                <a href="#" style="background-image: url('autohingfull.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Auto Hinges</a></h3>
+                </div>
+              </li>
+              <li>
+                <a href="#" style="background-image: url('sonatahandle.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Sonata handle</a></h3>
+                </div>
+              </li>
+              <li>
+                <a href="#" style="background-image: url('ssselfbbutton.jpg');"></a>
+                <div class="details">
+                  <h3><a href="#">Self Button</a></h3>
+                </div>
+              </li>
+          </ul>
+    </div>
+
+    <!--About Us and Contact-->
+    <footer id="aboutUs" class="footer-section" onclick="sidemenu2()">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Mann Road, Phase-1, Pandav Nagar, Hinjewadi, <br>Pune, Maharashtra-411057</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9890147531</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>misu.vaishnav@gmail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="balajilogo.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a style="text-decoration: none;" href="#">Home</a></li>
+                                <li><a style="text-decoration: none;" href="#">about</a></li>
+                                <li><a style="text-decoration: none;" href="#">services</a></li>
+                                <li><a style="text-decoration: none;" href="#">portfolio</a></li>
+                                <li><a style="text-decoration: none;" href="#">Contact</a></li>
+                                <li><a style="text-decoration: none;" href="#">About us</a></li>
+                                <li><a style="text-decoration: none;" href="#">Our Services</a></li>
+                                <li><a style="text-decoration: none;" href="#">Expert Team</a></li>
+                                <li><a style="text-decoration: none;" href="#">Contact us</a></li>
+                                <li><a style="text-decoration: none;" href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="#">
+                                    <input type="text" placeholder="Email Address">
+                                    <button><i class="fab fa-telegram-plane"></i></button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/">Anup</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="newcustomer.js"></script>
+</body>
+</htm>
