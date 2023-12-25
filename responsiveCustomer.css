@@ -25,11 +25,14 @@
         max-width: 100vw;
       }
       .image-list-small li {        
-        width: 180px;
-        margin: 0 20px 20px;
+        width: 160px;
+        margin: 10px 10px;
       }
       .image-list-small li > a {
-        height: 180px;
+        height: 160px;
+      }
+      .image-list-small .details h3 a {
+        font-size: 4vw;
       }
       
 }
