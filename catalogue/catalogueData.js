@@ -96,13 +96,13 @@ const catalogData = [
           category: "1mm Laminate",
         },
          {
-          link: "https://drive.google.com/file/d/1TNqGJzowHztSQXB6ANcFGvRmG0700wjn/view?usp=drive_link",
+          link: "https://drive.google.com/file/d/1HLC_cQ_MlF-eJKna2PZNNVK5-lhDQm1s/view?usp=drive_link",
           imageSrc: "frontpage/enzo.png",
           altText: "Enzo Catalogue Cover",
           category: "Acrylic Laminate",
         },
         {
-          link: "https://drive.google.com/file/d/1TNqGJzowHztSQXB6ANcFGvRmG0700wjn/view?usp=drive_link",
+          link: "https://drive.google.com/file/d/16Qjm7CdgCbNTn48DPdfuXi1HZ2cIEx1e/view?usp=drive_link",
           imageSrc: "frontpage/akwood.png",
           altText: "AK Wood Catalogue Cover",
           category: "Fabric Laminate",
