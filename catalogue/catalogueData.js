@@ -39,13 +39,13 @@ const catalogData = [
           link: "https://drive.google.com/file/d/1SiAC6-rYF88kdAY07DnGuucwuF3y403w/view?usp=drive_link",
           imageSrc: "frontpage/finemica.png",
           altText: "Finemica Catalogue Cover",
-          category: "0.92 Laminate",
+          category: "0.92mm Laminate",
         },
         {
           link: "https://drive.google.com/file/d/1Sku8sYYLgCm4eznlK2G6DIdpageghPZ5/view?usp=drive_link",
           imageSrc: "frontpage/ipl.png",
           altText: "IPL Catalogue Cover",
-          category: "0.92 Laminate",
+          category: "0.92mm Laminate",
         },
         {
           link: "https://drive.google.com/file/d/1reSSq9_yForblbiUsoGhAv4gfAJ2plcz/view?usp=drive_link",
@@ -81,7 +81,7 @@ const catalogData = [
           link: "https://drive.google.com/file/d/1SxKcs2bWFHRizj1nJ1RLpezZ8-NagGSS/view?usp=drive_link",
           imageSrc: "frontpage/bonanzlam.png",
           altText: "Bonanzlam Catalogue Cover",
-          category: "0.92 Laminate",
+          category: "0.92mm Laminate",
         },
         {
           link: "https://drive.google.com/file/d/1TNy8OmiptDNij3kZFOkK_anG_e_LUfS8/view?usp=drive_link",
