@@ -4,6 +4,7 @@
         "1mm Laminate",
         "Fabric Laminate",
         "Acrylic Laminate",
+        "Louvers"
       ];
 
       let currentlyHighlightedCategory = null;
